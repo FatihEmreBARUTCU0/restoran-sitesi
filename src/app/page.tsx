@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -7,7 +8,9 @@ import Reservation from "@/components/Reservation";
 import Location from "@/components/Location";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default async function Home() {
+  await connection();
+
   return (
     <>
       <Navbar />
