@@ -10,6 +10,7 @@ A modern, elegant restaurant landing page with reservation system, menu showcase
 ![Hero](hero.png)
 ![Menu](menu.png)
 ![Contact](contact.png)
+![Contact](contact.png)
 
 ## ✨ Features
 - Elegant hero section with reservation CTA
